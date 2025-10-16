@@ -255,3 +255,44 @@ footer a:hover svg {
   height: 100%;
   margin-top: 1.5px;
 }
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #131517;
+  }
+  body {
+    color: #f7f2ec;
+  }
+  hr {
+    border-top: 1px solid #44403b;
+  }
+  .lead-box {
+    border: 1px solid #44403b;
+  }
+  .lead-box p:first-of-type {
+    &:before {
+      content: '';
+      border: 1px solid #5c5750;
+      background: #1d2022;
+    }
+    &:after {
+      border: 1px solid #5c5750;
+      background: #1d2022;
+    }
+  }
+  .lead-box p:last-of-type {
+    &:before {
+      content: '';
+      border: 1px solid #5c5750;
+      background: #1d2022;
+    }
+    &:after {
+      content: '';
+      border: 1px solid #5c5750;
+      background: #1d2022;
+    }
+  }
+  .avatar {
+    border: 3px solid #5c5750;
+  }
+}
