@@ -1,6 +1,6 @@
 # GROOVY MADE
 
-[Website](https://groovymade.com) | [X/Twitter](https://x.com/intent/follow?screen_name=groovymade)
+[Website](https://groovymade.com)
 
 # Groovy Made  
 ### A corporate umbrella for independent builders.
